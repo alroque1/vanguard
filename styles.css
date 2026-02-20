@@ -68,7 +68,7 @@ table {
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
-/* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
+/* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90%       DONE*/
 .container {
     width: 90%;
     max-width: 1200px;
@@ -96,7 +96,7 @@ table {
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
 }
-/* THIS ONE IS DONE FOR YOU */
+/* THIS ONE IS DONE FOR YOU                                     DONE*/
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -118,7 +118,7 @@ table {
     transition: ;
     height: 0;
 }
-/* THIS ONE IS DONE FOR YOU */
+/* THIS ONE IS DONE FOR YOU                                     DONE*/
 .bar::after {
     content: attr(data-year);
     position: absolute;
