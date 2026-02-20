@@ -121,24 +121,34 @@
         </main>
 
         <footer>
-            <h2>Contact Us</h2>
-            Want to take your business to the next level? Get in touch with our elite team today.
+            <section id="Contact">
+                <h2>Contact Us</h2>
+                <p>Want to take your business to the next level? Get in touch with our elite team today.</p>
 
-                Full Name
+                    <form action="#" method="post">
 
-                Email Address
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
 
-                Company Name
+                        <label for="emailaddress">Email Address</label>
+                        <input type="text" id="email" name="email" required>
 
-                Industry
+                        <label for="companyname">Company Name</label>
+                        <input type="text" id="company" name="company">
 
-                How can we help you?
+                        <label for="industry">Industry</label>
+                        <input type="text" id="industry" name="industry">
 
-                Submit
+                        <label for="quesstion">How can we help you?</label>
+                        <textarea id="question" name="question" rows="3"></textarea>
 
-            For educational purposes only. 
-            Email: info@vaanguard.com 
-            Phone: 480.123.4567
+                        <button type="submit">Submit</button>
+                    </form>
+
+                For educational purposes only. 
+                Email: <a href="info@vanguard.com">info@vaanguard.com</a>
+                Phone: 480.123.4567
+            </section>
         </footer>
 
     </body>
