@@ -77,7 +77,7 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px auto;
     margin: 0;
     gap: 10px;
     flex-wrap: wrap;
@@ -101,6 +101,7 @@ body {
         margin: 0 auto;
         gap: 5px;
         text-decoration: none;
+        
     }
 
     .main-navigation li {
