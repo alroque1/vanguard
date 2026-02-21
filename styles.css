@@ -149,20 +149,20 @@ header {
 }
 
     .text-background h2 {
-        padding: 10px auto;
+        padding: 20px;
         font-size: 35px;
     }
 
     .text-background p {
         font-size: 17px;
+        padding-bottom: 30px;
     }
 
     .text-background a {
         font-size: 20px;
-        display: block;
         text-decoration: none;
         background-color: var(--blue);
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .text-background a:hover {
