@@ -91,7 +91,7 @@ body {
     font-size: 15px;
 }
 
-    .main-navigation ul{
+    .main-navigation ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         list-style: none;
@@ -106,6 +106,7 @@ body {
     text-align: center;
     }
 
+    
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
