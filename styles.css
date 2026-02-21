@@ -202,6 +202,17 @@ header {
         line-height: 25px;
     }
 
+        .Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
+            background-color: var(--blue);
+            color: #F8F4EC;
+            text-align: left;
+            display: block;
+            padding: 20px;
+            width: 100%;
+            margin: 0;
+            border-radius: 10px;
+        }
+
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 html {
