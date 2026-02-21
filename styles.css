@@ -120,7 +120,7 @@ header {
 
     }
 
-    .main-navigation a {
+    .main-navigation a, .main-navigation a:visited, .main-navigation a:active {
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
