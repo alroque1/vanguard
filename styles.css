@@ -170,7 +170,7 @@ header {
 
     .text-background a:hover {
         background-color: var(--red);
-        transform: scale(.5,.5);
+        transform: scale(1.05);
     }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
