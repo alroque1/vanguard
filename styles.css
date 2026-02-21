@@ -157,6 +157,7 @@ header {
     .text-background p {
         font-size: 17px;
         padding-bottom: 20px;
+        margin: 5px;
     }
 
     .text-background a {
