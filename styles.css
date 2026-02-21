@@ -147,6 +147,7 @@ header {
     border-radius: 10px;
     min-width: 300px;
     max-width: 800px;
+    color: var(--white);
 }
 
 
