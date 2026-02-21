@@ -115,18 +115,19 @@ header {
     }
 
     .main-navigation li {
-        display: block;
-        padding: 10px 30px;
+        list-style: none;
     }
 
     .main-navigation a, .main-navigation a:visited, .main-navigation a:active {
+        display: block;
+        padding: 10px 30px;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
         color: var(--blue);
     }
 
-    .main-navigation a:hover {
+    .main-navigation li:hover {
         color: var(--black);
         background-color: var(--blue);
     }
