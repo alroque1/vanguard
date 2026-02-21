@@ -75,16 +75,15 @@ body {
 .header-logo {
     display: flex;
     align-items: left;
-    gap: 10px;
-    justify-content: flex-start;
+    justify-content: space-between;
     font-size: 20px;
     padding: 10px 10px;
     margin: 0;
+    gap: 10px;
 }
 
-.header-logo h1 {
-    display: flex;
-    align-items: left;
+.header-logo h1, .header-logo img {
+    display: inline-block;
 }
 
 
