@@ -76,6 +76,10 @@ body {
     display: flex;
     align-items: left;
     gap: 10px;
+    justify-content: flex-start;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0;
 }
 
 .header-logo h1 {
