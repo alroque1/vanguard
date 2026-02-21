@@ -90,7 +90,7 @@ header {
     background-color: var(--black);
     color: var(--blue);
     border-bottom: 10px solid;
-    border-image: linear-gradient(var(--blue), transparent) 1;
+    border-image: linear-gradient(var(--blue) transparent) 1;
     width: 100%;
 }
 
