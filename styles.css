@@ -116,6 +116,7 @@ header .container.top {
         display: block;
         text-align: center;
         text-decoration: none;
+        text-transform: capitalize;
     }
 
     .main-navigation a {
