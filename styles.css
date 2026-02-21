@@ -181,6 +181,8 @@ header {
 .second {
     background-color: var(--white);
     align-items: left;
+    display: grid;
+    gap: 20px;
 }
 
     .second h2 {
