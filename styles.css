@@ -69,6 +69,7 @@ table {
 /*----------whole page----------*/
 body {
     text-align: left;
+    font-family: var(--font);
 }
 
 /*----------HEADER----------*/
