@@ -153,7 +153,22 @@ header {
         font-size: 35px;
     }
 
+    .text-background p {
+        font-size: 17px;
+    }
 
+    .text-background a {
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        background-color: var(--blue);
+        border-radius: 5px;
+    }
+
+    .text-background a:hover {
+        background-color: var(--red);
+        transform: scale(.5,.5);
+    }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
