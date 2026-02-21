@@ -141,9 +141,12 @@ header {
             /*----------MAIN----------*/
             /*----------INNOVATION-INVESTMENT----------*/
 
-#Innovation-Investment {
-    margin: 0;
-    color: var(--white);   
+.text-background {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 800px;
 }
 
 
@@ -170,6 +173,9 @@ html {
     text-align: center;
     padding: 1rem;
     overflow: hidden;
+    /*my add ons are below this*/
+    margin: 0;
+    color: var(--white);   
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1                          Double check*/
