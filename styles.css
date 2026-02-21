@@ -78,8 +78,6 @@ header {
     padding: 0;
     margin: 0;
     font-family: var(--font);
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to top, var(--blue) transparent);
 }
 
 .top {
@@ -91,6 +89,8 @@ header {
     flex-wrap: wrap;
     background-color: var(--black);
     color: var(--blue);
+    border-bottom: 10px solid;
+    border-image: linear-gradient(to bottom, var(--blue) transparent) 1;
 }
 
     .logo-and-title {
