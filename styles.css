@@ -107,15 +107,13 @@ header {
     .main-navigation ul {
         display: flex;
         list-style: none;
-        padding: 20px;
         margin: 0 auto;
         gap: 20px;
     }
 
     .main-navigation li {
         display: block;
-        text-align: center;
-        text-decoration: none;
+
     }
 
     .main-navigation a {
