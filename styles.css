@@ -146,8 +146,12 @@ header {
     min-width: 300px;
     max-width: 800px;
     color: var(--white);
-    padding-top: 10px;
 }
+
+    .text-background h2 {
+        padding: 10px auto;
+        font-size: 35px;
+    }
 
 
 
