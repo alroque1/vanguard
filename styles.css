@@ -81,7 +81,6 @@ header {
 .top {
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
     align-items: center;
     padding: 20px 0;
     margin: 0;
@@ -97,6 +96,7 @@ header {
 
     .logo-and-title h1 {
         font-weight: bolder;
+        font-size: 30px;
     }
 
 
