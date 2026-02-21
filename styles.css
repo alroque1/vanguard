@@ -77,7 +77,7 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
-    padding: 10px auto;
+    padding: 10px 30px;
     margin: 0;
     gap: 10px;
     flex-wrap: wrap;
@@ -85,9 +85,12 @@ body {
     color: var(--blue);
 }
 
-.top h1 {
-    display: inline-block;
-}
+    .logo-and-title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
 
 /*----------NAV----------*/
 .main-navigation {
