@@ -190,7 +190,9 @@ header {
         font-size: 20px;
     }
 
-    .second
+    .second p {
+        font-size: 17px;
+    }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
