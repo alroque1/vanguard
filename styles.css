@@ -177,6 +177,21 @@ header {
         transform: scale(1.05);
     }
 
+            /*----------SECOND = OUR EXPERTISE AND WHAT WE OFFER----------*/
+.second {
+    background-color: var(--white);
+}
+
+    .second h2 {
+        font-size: 35px;
+    }
+
+    .second h3 {
+        font-size: 20px;
+    }
+
+    .second
+
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 html {
