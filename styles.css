@@ -198,7 +198,8 @@ header {
     }
 
     #Our-Expertise, #What-We-Offer {
-        padding: 0 30px;
+        padding: 10px 30px;
+        line-height: 25px;
     }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
