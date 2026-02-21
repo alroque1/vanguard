@@ -1,10 +1,12 @@
-/* CSS BY ANGELA ROQUE */
+/* ----------CSS BY ANGELA ROQUE---------- */
+/* GIT 337: WEB CONTENT DESIGN */
+/* ASSIGNMENT 4: VANGUARD */
 
 /* IMPORTED FONTS*/
 /* IMPORT "INTER" FROM GOOGLE FONTS"                                DONE*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* CSS RESET */
+/* ----------CSS RESET---------- */
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -53,7 +55,7 @@ table {
     border-spacing: 0;
 }
 
-/* ROOT VARIABLES */
+/* ----------ROOT VARIABLES---------- */
 :root {
     --blue: #007BFF;
     --red: #FF4500;
@@ -63,18 +65,13 @@ table {
     --font: "Inter", sans-serif;
 }
 
-/* GLOBAL STYLES (MOBILE FIRST (SMALL) */
+/* ----------GLOBAL STYLES (MOBILE FIRST (SMALL)---------- */
 
-
+/* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
-@media screen and (max-width: 400px){
-    .page {
-        min-width: 400px;
-        padding: 0;
-        margin: 0;
-    }
+html {
+    min-width: 400px;
 }
-
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90%       DONE*/
 .container {
@@ -149,10 +146,10 @@ header .logo {
 .bar {
     animation: stepUp 1s ease-in-out forwards;
 }
+/* ^^^^^^^^^^^^END of GIVEN SECTIONS for GLOBAL STYLES^^^^^^^^^^ */
 
-
-/* MEDIA QUERIES (MEDIUM) */ 
-
+/* ----------MEDIA QUERIES (MEDIUM)---------- */ 
+    /*GIVEN*/
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -166,6 +163,15 @@ header .logo {
     .bar-chart {
         width: 50%;
     }
+    /*END of GIVEN*/
+
+@media screen and (max-width: 400px){
+    .page {
+        min-width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+}
 
 
-/* MEDIA QUERIES (LARGE) */
+/* ----------MEDIA QUERIES (LARGE)---------- */
