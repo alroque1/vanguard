@@ -72,8 +72,13 @@ body {
 }
 
 /*----------HEADER----------*/
-
 header {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+header .container.top {
     display: flex;
     justify-content: space-between;
     font-size: 25px;
