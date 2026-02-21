@@ -85,7 +85,7 @@ body {
     color: var(--blue);
 }
 
-.top h1, header .logo {
+.top h1 {
     display: inline-block;
 }
 
