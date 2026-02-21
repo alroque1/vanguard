@@ -66,13 +66,13 @@ table {
 }
 
 /* ----------GLOBAL STYLES (MOBILE FIRST (SMALL)---------- */
-/*----------whole page----------*/
+            /*----------whole page----------*/
 body {
     text-align: left;
     font-family: var(--font);
 }
 
-/*----------HEADER----------*/
+            /*----------HEADER----------*/
 header {
     display: block;
     padding: 0;
@@ -106,7 +106,7 @@ header {
     }
 
 
-/*----------NAV----------*/
+            /*----------NAV----------*/
 .main-navigation {
     font-size: 20px;
     padding-bottom: 20px;
@@ -137,6 +137,9 @@ header {
         color: var(--black);
         background-color: var(--blue);
     }
+
+            /*----------MAIN----------*/
+            /*----------INNOVATION-INVESTMENT----------*/
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
