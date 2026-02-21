@@ -110,12 +110,12 @@ body {
     .main-navigation li {
         display: block;
         text-align: center;
-        text-transform: capitalize;
         text-decoration: none;
     }
 
     .main-navigation a {
         text-decoration: none;
+        text-transform: capitalize;
         font-weight: bolder;
     }
 
