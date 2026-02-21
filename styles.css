@@ -79,7 +79,6 @@ body {
     font-size: 25px;
     padding:0;
     margin: 0;
-    gap: 30px;
     flex-wrap: wrap;
     background-color: var(--black);
     color: var(--blue);
@@ -88,7 +87,6 @@ body {
     .logo-and-title {
         display: flex;
         align-items: center;
-        gap: 10px;
     }
 
     .logo-and-title h1 {
