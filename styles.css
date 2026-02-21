@@ -142,6 +142,7 @@ header .logo {
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
     margin-right: 10px;
+    float: left;
 }
 /* THIS ONE IS DONE FOR YOU                                     DONE*/
 #bar-chart {
