@@ -128,7 +128,7 @@ header {
         text-transform: uppercase;
         font-weight: bold;
         color: var(--blue);
-        transition: background-color 0.8s;
+        transition: background-color 0.5s;
     }
 
     .main-navigation li:hover, .main-navigation a:hover {
