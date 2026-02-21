@@ -141,6 +141,10 @@ header {
             /*----------MAIN----------*/
             /*----------INNOVATION-INVESTMENT----------*/
 
+#Innovation-Investment {
+    margin: 0;   
+}
+
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 html {
