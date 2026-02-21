@@ -118,7 +118,7 @@ header {
 
     .main-navigation a {
         text-decoration: none;
-        text-transform: capitalize;
+        text-transform: uppercase;
         font-weight: bolder;
     }
 
