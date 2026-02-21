@@ -213,6 +213,10 @@ header {
             border-radius: 10px;
         }
 
+        .Strategic h3, .Investment h3, .Business h3, .Digital h3, .Exclusive h3, .Corporate h3 {
+            padding-left: 10px;
+        }
+
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 html {
