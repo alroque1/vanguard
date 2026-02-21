@@ -180,7 +180,6 @@ header {
             /*----------SECOND = OUR EXPERTISE AND WHAT WE OFFER----------*/
 .second {
     background-color: var(--white);
-    padding: 20px auto;
     align-items: left;
 }
 
@@ -196,6 +195,10 @@ header {
 
     .second p {
         font-size: 17px;
+    }
+
+    #Our-Expertise, #What-We-Offer {
+        padding: 30px;
     }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
