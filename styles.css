@@ -124,9 +124,13 @@ header {
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
+        color: var(--blue);
     }
 
-
+    .main-navigation a:hover {
+        color: var(--black);
+        background-color: var(--blue);
+    }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
