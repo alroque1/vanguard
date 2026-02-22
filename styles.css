@@ -346,22 +346,27 @@ header {
         border-color: #007BFF;
     }
 
-    .Contact-Form button {
-        display: inline-block;
-        font-size: 20px;
-        font-weight: bold;
-        text-decoration: none;
-        background-color: var(--blue);
-        border-radius: 10px;
-        color: var(--white);
-        padding: 20px 10px;
-        width: 100%;
-    }
+        .Contact-Form input, .Contact-Form textarea {
+            box-sizing: border-box;
+            border: 1px solid var(--blue);
+        }
 
-    .Contact-Form button:hover {
-        background-color: var(--red);
-        transform: scale(.5);
-    }
+        .Contact-Form button {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: var(--blue);
+            border-radius: 10px;
+            color: var(--white);
+            padding: 20px 10px;
+            width: 100%;
+        }
+
+        .Contact-Form button:hover {
+            background-color: var(--red);
+            transform: scale(.5);
+        }
 
     .Contact-Info {
         text-align: center;
