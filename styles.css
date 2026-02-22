@@ -373,7 +373,7 @@ header {
 
         .Contact-Form button:hover {
             background-color: var(--red);
-            transform: scale(1);
+            transform: scale(1.05);
         }
 
     .Contact-Info {
