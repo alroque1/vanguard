@@ -239,7 +239,6 @@ header {
 .third {
     background-color: var(--blue);
     align-items: left;
-    display: grid;
     gap: 20px;
     line-height: 1.5;
     color: var(--white);
@@ -266,12 +265,17 @@ header {
     .Profits table {
         border: 1px solid var(--charcoal);
         border-spacing: 0;
+        border-collapse: separate;
         border-left: var(--charcoal);
         border-right: var(--charcoal);
         margin: 0 auto;
         text-align: center;
         width: 100%;
     }
+
+        .Profits table th, .Profits table td {
+            border: 1px solid var(--charcoal);
+        }
 
         .Profits table tr + tr {
             border: 1px solid var(--charcoal);
