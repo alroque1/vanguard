@@ -259,6 +259,7 @@ header {
     .results p {
         font: 17px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     .results table {
@@ -338,6 +339,7 @@ header {
     .Contact-Intro p {
         font: 17px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     .Contact-Form {
