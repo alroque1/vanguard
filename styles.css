@@ -188,7 +188,6 @@ header {
     .second h2 {
         font-size: 35px;
         font-weight: bold;
-        padding: 20px;
     }
 
     .second h3 {
@@ -201,7 +200,7 @@ header {
     }
 
     #Our-Expertise-Intro, #What-We-Offer {
-        padding: 10px 30px;
+        padding: 40px 30px;
         line-height: 25px;
     }
 
