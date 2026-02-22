@@ -469,6 +469,10 @@ header .logo {
         display: grid;
     }
 
+    #Proven-Results {
+        display: grid;
+    }
+
     #Our-Expertise-Intro, #Proven-Results-Intro, #Contact-Intro, #What-We-Offer h2 {
         grid-column: 1/-1;
     }
