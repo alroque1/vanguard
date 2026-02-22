@@ -189,6 +189,8 @@ header {
     .second h2 {
         font-size: 35px;
         font-weight: bold;
+        padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     .second h3 {
