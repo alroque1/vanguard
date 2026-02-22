@@ -365,7 +365,7 @@ header {
 
         .Contact-Form button:hover {
             background-color: var(--red);
-            transform: scale(.5);
+            transform: scale(1);
         }
 
     .Contact-Info {
