@@ -269,39 +269,46 @@ header {
         padding: 10px 15px;
     }
 
-    .Profits table {
-        border-collapse: separate;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        background-color: var(--charcoal);
-        align-self: center;
+    .Profits {
+        display: flex;
+        flex-direction: column;
+        height: 100%
     }
 
-        .Profits table th, .Profits table td {
-            border: 1px solid var(--charcoal);
-            line-height: 1.5;
-            padding: 10px 30px;
-        }
-
-        .Profits table tr + tr {
-            border: 1px solid var(--charcoal);
-        }
-
-        .Profits table tr:nth-child(1) {
-            background-color: var(--black);
-            font-weight: bold;
-        }
-
-        .Profits table tr:nth-child(2), .Profits table tr:nth-child(4), .Profits table tr:nth-child(6) {
-            background-color: var(--black);
-        }
-
-        .Profits table tr:nth-child(3), .Profits table tr:nth-child(5) {
+        .Profits table {
+            border-collapse: separate;
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
             background-color: var(--charcoal);
+            align-self: center;
+            margin-top: auto;
         }
+
+            .Profits table th, .Profits table td {
+                border: 1px solid var(--charcoal);
+                line-height: 1.5;
+                padding: 10px 30px;
+            }
+
+            .Profits table tr + tr {
+                border: 1px solid var(--charcoal);
+            }
+
+            .Profits table tr:nth-child(1) {
+                background-color: var(--black);
+                font-weight: bold;
+            }
+
+            .Profits table tr:nth-child(2), .Profits table tr:nth-child(4), .Profits table tr:nth-child(6) {
+                background-color: var(--black);
+            }
+
+            .Profits table tr:nth-child(3), .Profits table tr:nth-child(5) {
+                background-color: var(--charcoal);
+            }
 
     .Growth {
         margin: 0 auto;
@@ -369,7 +376,8 @@ header .logo {
 }
 /* ADD ON TRANSITION ON HEIGHT                                  double check*/
 .bar {
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
@@ -481,7 +489,6 @@ header .logo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        align-items: end;
     }
 
     .Proven-Results-Intro {
