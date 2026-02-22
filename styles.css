@@ -80,7 +80,7 @@ header {
     font-family: var(--font);
 }
 
-.top {
+.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,8 +182,8 @@ header {
         transform: scale(1.05);
     }
 
-            /*----------SECOND = OUR EXPERTISE AND WHAT WE OFFER----------*/
-.second {
+            /*----------OUR EXPERTISE AND WHAT WE OFFER----------*/
+.expertise-offers {
     background-color: var(--white);
     align-items: left;
     display: grid;
@@ -191,19 +191,19 @@ header {
     line-height: 1.5;
 }
 
-    .second h2 {
+    .expertise-offers h2 {
         font-size: 35px;
         font-weight: bold;
         padding-left: 25px;
     }
 
-    .second h3 {
+    .expertise-offers h3 {
         font-size: 20px;
         font-weight: bold;
         padding-bottom: 15px;
     }
 
-    .second p {
+    .expertise-offers p {
         font-size: 17px;
     }
 
@@ -235,8 +235,8 @@ header {
         }
 
 
-            /*----------THIRD = PROVEN RESULTS, PROFITS, GROWTH----------*/
-.third {
+            /*----------PROVEN RESULTS, PROFITS, GROWTH----------*/
+.results {
     background-color: var(--blue);
     align-items: left;
     gap: 20px;
@@ -244,24 +244,24 @@ header {
     color: var(--white);
 }
 
-    .third h2 {
+    .results h2 {
             font-size: 35px;
             font-weight: bold;
             padding-left: 40px;
         }
 
-    .third h3 {
+    .results h3 {
             font-size: 35px;
             font-weight: bold;
             padding-left: 25px;
         }
 
-    .third p {
+    .results p {
         font: 17px;
         padding-left: 20px;
     }
 
-    .third table {
+    .results table {
         font-size: 18px;
     }
 
@@ -539,11 +539,11 @@ header .logo {
         margin: 0;
     }
 
-    .second, .third, .bottom {
+    .expertise-offers, .results, .bottom {
         display: grid;
     }
 
-    .third {
+    .results {
         padding-bottom: 20px
     }
 
@@ -583,7 +583,7 @@ header .logo {
         margin: 0;
     }
 
-    .second, .third, .bottom {
+    .expertise-offers, .results, .bottom {
         display: grid;
     }
 
