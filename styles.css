@@ -183,7 +183,7 @@ header {
     align-items: left;
     display: grid;
     gap: 20px;
-    line-height: 25px;
+    line-height: 1.5;
 }
 
     .second h2 {
