@@ -566,7 +566,7 @@ header .logo {
             gap: 20px;
         }
 
-    #What-We-Offer, #Proven-Results, .Contact-Form {
+    #What-We-Offer, #Proven-Results, .form-group {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
