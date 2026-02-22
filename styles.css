@@ -247,16 +247,18 @@ header {
     .third h2 {
             font-size: 35px;
             font-weight: bold;
-            padding-left: 25px;
+            padding-left: 40px;
         }
 
     .third h3 {
             font-size: 35px;
             font-weight: bold;
+            padding-left: 25px;
         }
 
     .third p {
         font: 17px;
+        padding-left: 20px;
     }
 
     .third table {
@@ -264,7 +266,7 @@ header {
     }
 
     #Proven-Results, .Profits, .Growth {
-        padding: 40px 30px;
+        padding: 40px 15px;
     }
 
     .Profits table {
