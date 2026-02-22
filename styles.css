@@ -356,6 +356,25 @@ header .logo {
         padding-top: 20px;
         padding-right: 20px;
     }
+
+    .navigation a, .navigation a:visited, .navigation a:active {
+        display: block;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--blue);
+        transition: background-color 0.5s;
+    }
+
+    .navigation li:hover, .navigation a:hover {
+        color: var(--black);
+        background-color: var(--blue);
+    }
+
+    .navigation.active .dropdown-nav {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 600px){
