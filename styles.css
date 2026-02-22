@@ -283,7 +283,7 @@ header {
         .Profits table th, .Profits table td {
             border: 1px solid var(--charcoal);
             line-height: 1.5;
-            padding: 10px 30px;
+            padding: 10px 20px;
         }
 
         .Profits table tr + tr {
