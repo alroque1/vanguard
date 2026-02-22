@@ -137,6 +137,11 @@ header {
         background-color: var(--blue);
     }
 
+            /*-----hamburger nav dropdown-----*/
+.hamburger {
+    display: none;
+}
+
             /*----------MAIN----------*/
             /*----------INNOVATION-INVESTMENT----------*/
 
@@ -328,6 +333,19 @@ header .logo {
         width: 50%;
     }
     /*END of GIVEN*/
+
+@media screen and (max-width: 400px){
+    .hamburger {
+        display: block;
+    }
+
+    .dropdown-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+    }
+}
 
 @media screen and (min-width: 600px){
     .page {
