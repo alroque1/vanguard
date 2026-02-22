@@ -274,7 +274,10 @@ header {
         margin: 0 auto;
         text-align: center;
         width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
         background-color: var(--charcoal);
+        align-self: center;
     }
 
         .Profits table th, .Profits table td {
