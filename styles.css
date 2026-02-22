@@ -346,6 +346,7 @@ header {
         margin: 0 auto;
         gap: 20px;
         border-color: #007BFF;
+        padding: 20px;
     }
 
         .Contact-Form input, .Contact-Form textarea {
@@ -356,7 +357,7 @@ header {
         .form-group {
             display: flex;
             flex-direction: column;
-
+            padding: 10px;
         }
 
         .Contact-Form button {
