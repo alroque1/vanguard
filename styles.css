@@ -263,14 +263,11 @@ header {
     }
 
     .Profits table {
-        border: 1px solid var(--charcoal);
-        border-spacing: 0;
         border-collapse: separate;
-        border-left: var(--charcoal);
-        border-right: var(--charcoal);
         margin: 0 auto;
         text-align: center;
         width: 100%;
+        background-color: var(--charcoal);
     }
 
         .Profits table th, .Profits table td {
