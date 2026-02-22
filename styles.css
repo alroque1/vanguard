@@ -265,7 +265,8 @@ header {
 
     .Profits table {
         padding: 10px;
-        border: 1px solid var(--white);
+        border: 1px solid var(--charcoal);
+        
     }
 
         .Profits table tr:nth-child(1) {
