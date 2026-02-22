@@ -566,11 +566,15 @@ header .logo {
             gap: 20px;
         }
 
-    #What-We-Offer, #Proven-Results, .form-group {
+    #What-We-Offer, #Proven-Results {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
     
+    .form-group {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 20px;
+    }
 
 }
 
