@@ -199,7 +199,7 @@ header {
         font-size: 17px;
     }
 
-    #Our-Expertise, #What-We-Offer {
+    #Our-Expertise-Intro, #What-We-Offer {
         padding: 10px 30px;
         line-height: 25px;
     }
@@ -332,14 +332,20 @@ header .logo {
         margin: 0;
     }
 
+    .second, .third, .bottom {
+        display: grid;
+    }
+
+    #Our-Expertise-Intro, #Proven-Results-Intro, #Contact-Intro {
+        grid-column: 1/-1;
+    }
+
     #What-We-Offer, #Proven-Results {
-            display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
     
     #Contact {
-            display: grid;
             grid-column: 1/-1;
             gap: 20px;
         }
@@ -354,14 +360,20 @@ header .logo {
         margin: 0;
     }
 
+    .second, .third, .bottom {
+        display: grid;
+    }
+
+    #Our-Expertise-Intro, #Proven-Results-Intro, #Contact-Intro {
+        grid-column: 1/-1;
+    }
+
     #What-We-Offer, #Proven-Results, #Contact {
-            display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
 
     #Contact {
-            display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
