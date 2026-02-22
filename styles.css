@@ -496,6 +496,11 @@ header .logo {
     .Profits table th, .Profits table td {
         padding: 8px 10px;
     }
+
+    .bar {
+        width: 100%;
+        max-width: 50px;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -524,11 +529,6 @@ header .logo {
 
     .Proven-Results-Intro {
         grid-column: 1/-1;
-    }
-
-    .bar {
-        width: 100%;
-        max-width: 50px;
     }
 
     .Contact-Intro, .Contact-Info {
