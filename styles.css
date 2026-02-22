@@ -138,8 +138,27 @@ header {
     }
 
             /*-----hamburger nav dropdown-----*/
-.hamburger {
+.hamburger input {
     display: none;
+}
+
+label span {
+    background-color: white;
+    display: block;
+    height: .25rem;
+    position: relative;
+    transition: background-color .3s ease-out;
+    width: 2rem;
+}
+
+label span:before, label span:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
 }
 
             /*----------MAIN----------*/
@@ -494,27 +513,6 @@ header .logo {
     /*END of GIVEN*/
 
 @media screen and (max-width: 400px){
-    .hamburger {
-        display: block;
-        background: none;
-        border: none;
-        color: var(--white);
-        font-size: 30px;
-    }
-
-    .dropdown-nav {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        text-align: center;
-        right: 0;
-        padding-top: 20px;
-        padding-right: 20px;
-    }
-
-    .navigation.active .dropdown-nav {
-        display: flex;
-    }
     
     .navigation a, .navigation a:visited, .navigation a:active {
         display: block;
@@ -542,6 +540,23 @@ header .logo {
         padding: 0;
         margin: 0;
     }
+
+    nav ul {
+        overflow: visible;
+        position: absolute;
+        top: 1.5rem;
+        right: .5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+        nav li a {
+            display: inline-block;
+        }
+
+        label span, input {
+            display: none;
+        }
 
     .expertise-offers, .results, .contact {
         display: grid;
