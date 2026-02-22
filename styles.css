@@ -272,7 +272,7 @@ header {
     .Profits {
         display: flex;
         flex-direction: column;
-        height: 100%
+        height: 95%
     }
 
         .Profits table {
@@ -393,8 +393,6 @@ header .logo {
 }
 /* ADD ON TRANSITION ON HEIGHT                                  double check*/
 .bar {
-    width: 100%;
-    max-width: 50px;
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
@@ -510,6 +508,11 @@ header .logo {
 
     .Proven-Results-Intro {
         grid-column: 1/-1;
+    }
+
+    .bar {
+        width: 100%;
+        max-width: 50px;
     }
 
     .Contact-Intro, .Contact-Info {
