@@ -263,6 +263,19 @@ header {
         padding: 40px 30px;
     }
 
+        .Profits table tr:nth-child(1) {
+            background-color: var(--black);
+            font-weight: bold;
+        }
+
+        .Profits table tr:nth-child(2), .Profits table tr:nth-child(4), .Profits table tr:nth-child(6) {
+            background-color: var(--black);
+        }
+
+        .Profits table tr:nth-child(3), .Profits table tr:nth-child(5) {
+            background-color: var(--charcoal);
+        }
+
             /*----------BOTTOM = CONTACT----------*/
 .bottom {
     background-color: var(--black);
