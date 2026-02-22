@@ -343,6 +343,7 @@ header {
     .Contact-Form {
         display: grid;
         grid-template-columns: 1fr;
+        margin: 0 auto;
         gap: 20px;
         border-color: #007BFF;
     }
