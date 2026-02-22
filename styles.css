@@ -429,6 +429,7 @@ header .logo {
 }
 /* ADD ON TRANSITION ON HEIGHT                                  double check*/
 .bar {
+    width: 50px;
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
@@ -446,6 +447,7 @@ header .logo {
     font-weight: bold;
     color: var(--white);
 }
+
 @keyframes stepUp {
     0% {
         height: 0;
