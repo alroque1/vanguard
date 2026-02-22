@@ -492,7 +492,7 @@ header .logo {
             gap: 20px;
         }
 
-    .Contact-Form {
+    #What-We-Offer, #Proven-Results, .Contact-Form {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
