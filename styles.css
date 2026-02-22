@@ -161,6 +161,14 @@ header {
         width: 100%;
     }
 
+    label span:before {
+        left: .75rem;
+    }
+
+    label span:after {
+        left: -.75rem;
+    }
+
     input:checked ~ label:not(.steps) span:before,
     input:checked ~ label:not(.steps) span:after {
     top: 0;
