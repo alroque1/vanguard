@@ -259,6 +259,10 @@ header {
         font-size: 20px;
     }
 
+    #Proven-Results, .Profits, .Growth {
+        padding: 40px 30px;
+    }
+
             /*----------BOTTOM = CONTACT----------*/
 .bottom {
     background-color: var(--black);
@@ -266,6 +270,7 @@ header {
     display: grid;
     gap: 20px;
     line-height: 1.5;
+    color: var(--white);
 }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
