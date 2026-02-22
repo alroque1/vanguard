@@ -312,6 +312,8 @@ header {
 
     .Growth {
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
 
             /*----------BOTTOM = CONTACT----------*/
