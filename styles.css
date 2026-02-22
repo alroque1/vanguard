@@ -553,7 +553,7 @@ header .logo {
     }
     /*END of GIVEN*/
 
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
     
     .navigation a, .navigation a:visited, .navigation a:active {
         display: block;
