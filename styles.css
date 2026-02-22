@@ -234,7 +234,21 @@ header {
             padding-left: 10px;
         }
 
-        
+
+            /*----------THIRD = PROVEN RESULTS, PROFITS, GROWTH----------*/
+.third {
+    background-color: var(--white);
+    align-items: left;
+    display: grid;
+    gap: 20px;
+    line-height: 1.5;
+}
+
+
+
+            /*----------BOTTOM = CONTACT----------*/
+
+
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 html {
