@@ -322,6 +322,9 @@ header {
     gap: 20px;
     line-height: 1.5;
     color: var(--white);
+}
+
+#contact {
     padding: 40px 30px;
 }
 
