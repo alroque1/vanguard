@@ -211,6 +211,10 @@ header {
         padding: 40px 30px;
     }
 
+    #Our-Expertise-Intro {
+        padding-bottom: 0;
+    }
+
     #What-We-Offer {
         display: grid;
         gap: 20px;
