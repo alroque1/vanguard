@@ -316,8 +316,8 @@ header {
         flex-direction: column;
     }
 
-            /*----------BOTTOM = CONTACT----------*/
-.bottom {
+            /*----------CONTACT----------*/
+.contact {
     background-color: var(--black);
     align-items: left;
     display: grid;
@@ -539,7 +539,7 @@ header .logo {
         margin: 0;
     }
 
-    .expertise-offers, .results, .bottom {
+    .expertise-offers, .results, .contact {
         display: grid;
     }
 
@@ -583,7 +583,7 @@ header .logo {
         margin: 0;
     }
 
-    .expertise-offers, .results, .bottom {
+    .expertise-offers, .results, .contact {
         display: grid;
     }
 
