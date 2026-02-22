@@ -242,12 +242,25 @@ header {
     display: grid;
     gap: 20px;
     line-height: 1.5;
+    color: var(--white);
 }
 
+    .third h2, .third h3 {
+            font-size: 35px;
+            font-weight: bold;
+            padding-left: 20px;
+        }
 
+    .third p {
+        font: 17px;
+    }
+
+    .third table {
+        font-size: 20px;
+    }
 
             /*----------BOTTOM = CONTACT----------*/
-.third {
+.bottom {
     background-color: var(--black);
     align-items: left;
     display: grid;
