@@ -408,6 +408,10 @@ header .logo {
         padding-right: 20px;
     }
 
+    .navigation.active .dropdown-nav {
+        display: flex;
+    }
+    
     .navigation a, .navigation a:visited, .navigation a:active {
         display: block;
         padding: 10px 30px;
@@ -421,10 +425,6 @@ header .logo {
     .navigation li:hover, .navigation a:hover {
         color: var(--black);
         background-color: var(--blue);
-    }
-
-    .navigation.active .dropdown-nav {
-        display: flex;
     }
 }
 
@@ -446,11 +446,20 @@ header .logo {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
+
     
-    #Contact {
+    
+    .Contact-Intro, .Contact-Info {
             grid-column: 1/-1;
             gap: 20px;
         }
+
+    .Contact-Form {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    
+
 }
 
 
