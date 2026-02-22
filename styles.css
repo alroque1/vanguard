@@ -142,24 +142,30 @@ header {
     display: none;
 }
 
-label span {
-    background-color: white;
-    display: block;
-    height: .25rem;
-    position: relative;
-    transition: background-color .3s ease-out;
-    width: 2rem;
-}
+    label span {
+        background-color: white;
+        display: block;
+        height: .25rem;
+        position: relative;
+        transition: background-color .3s ease-out;
+        width: 2rem;
+    }
 
-label span:before, label span:after {
-    background: white;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-}
+    label span:before, label span:after {
+        background: white;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+
+    input:checked ~ label:not(.steps) span:before,
+    input:checked ~ label:not(.steps) span:after {
+    top: 0;
+    left: 10px;
+    }
 
             /*----------MAIN----------*/
             /*----------INNOVATION-INVESTMENT----------*/
