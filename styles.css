@@ -339,6 +339,10 @@ header {
         padding-left: 20px;
     }
 
+    .Contact-Form {
+        border-color: #007BFF;
+    }
+
     .Contact-Form button {
         display: inline-block;
         font-size: 20px;
