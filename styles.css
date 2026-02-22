@@ -195,8 +195,8 @@ header {
 
     .second h3 {
         font-size: 20px;
-        padding: 10px auto;
         font-weight: bold;
+        padding-bottom: 15px;
     }
 
     .second p {
