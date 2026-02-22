@@ -357,8 +357,17 @@ header {
 
     .Contact-Form button:hover {
         background-color: var(--red);
-        transform: scale(1.05);
+        transform: scale(.5);
     }
+
+    .Contact-Info {
+        text-align: center;
+    }
+
+        .Contact-Info a {
+            text-decoration: none;
+            color: var(--blue);
+        }
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
