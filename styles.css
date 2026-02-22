@@ -204,11 +204,15 @@ header {
         line-height: 25px;
     }
 
+    #What-We-Offer {
+        display: grid;
+        gap: 20px;
+    }
+
         .Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
             background-color: var(--blue);
             color: #F8F4EC;
             text-align: left;
-            display: block;
             padding: 20px;
             width: 100%;
             margin: 0;
