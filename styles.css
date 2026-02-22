@@ -209,6 +209,7 @@ header {
     #What-We-Offer {
         display: grid;
         gap: 20px;
+        padding-top: 0;
     }
 
         .Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
