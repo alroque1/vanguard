@@ -321,7 +321,6 @@ header {
     background-color: var(--black);
     align-items: left;
     display: grid;
-    gap: 20px;
     line-height: 1.5;
     color: var(--white);
 }
@@ -351,6 +350,12 @@ header {
         .Contact-Form input, .Contact-Form textarea {
             box-sizing: border-box;
             border: 1px solid var(--blue);
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+
         }
 
         .Contact-Form button {
