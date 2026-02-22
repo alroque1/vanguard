@@ -263,6 +263,11 @@ header {
         padding: 40px 30px;
     }
 
+    .Profits table {
+        padding: 10px;
+        border: 1px solid var(--white);
+    }
+
         .Profits table tr:nth-child(1) {
             background-color: var(--black);
             font-weight: bold;
