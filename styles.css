@@ -283,7 +283,7 @@ header {
         .Profits table th, .Profits table td {
             border: 1px solid var(--charcoal);
             line-height: 1.5;
-            padding: 10px 20px;
+            padding: 10px 30px;
         }
 
         .Profits table tr + tr {
@@ -456,6 +456,10 @@ header .logo {
     .navigation li:hover, .navigation a:hover {
         color: var(--black);
         background-color: var(--blue);
+    }
+
+    .Profits table th, .Profits table td {
+        padding: 8px 10px;
     }
 }
 
