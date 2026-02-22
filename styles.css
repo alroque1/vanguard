@@ -256,7 +256,7 @@ header {
     }
 
     .third table {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #Proven-Results, .Profits, .Growth {
@@ -264,12 +264,13 @@ header {
     }
 
     .Profits table {
-        padding: 10px 20px;
         border: 1px solid var(--charcoal);
-        border-collapse: separate;
         border-spacing: 0;
+        border-left: var(--charcoal);
+        border-right: var(--charcoal);
         margin: 0 auto;
         text-align: center;
+        width: 100%;
     }
 
         .Profits table tr + tr {
@@ -288,6 +289,10 @@ header {
         .Profits table tr:nth-child(3), .Profits table tr:nth-child(5) {
             background-color: var(--charcoal);
         }
+
+    .Growth {
+        margin: 0 auto;
+    }
 
             /*----------BOTTOM = CONTACT----------*/
 .bottom {
