@@ -469,16 +469,20 @@ header .logo {
         display: grid;
     }
 
+    #Our-Expertise-Intro, #What-We-Offer h2 {
+        grid-column: 1/-1;
+    }
+    
     #Proven-Results {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 
-    #Our-Expertise-Intro, #Proven-Results-Intro, #Contact-Intro, #What-We-Offer h2 {
+    .Proven-Results-Intro {
         grid-column: 1/-1;
     }
-    
+
     .Contact-Intro, .Contact-Info {
             grid-column: 1/-1;
             gap: 20px;
