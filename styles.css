@@ -193,6 +193,7 @@ header {
 
     .second h3 {
         font-size: 20px;
+        padding: 10px auto;
     }
 
     .second p {
@@ -220,10 +221,6 @@ header {
 
         .Strategic h3, .Investment h3, .Business h3, .Digital h3, .Exclusive h3, .Corporate h3 {
             padding-left: 10px;
-        }
-
-        #What-We-Offer h2 {
-
         }
 
         
