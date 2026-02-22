@@ -513,12 +513,12 @@ header .logo {
         grid-column: 1/-1;
     }
 
-    #What-We-Offer, #Proven-Results, #Contact {
+    #What-We-Offer {
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
 
-    #Contact {
+    #Proven-Results, #Contact {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
