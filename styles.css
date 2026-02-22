@@ -264,10 +264,17 @@ header {
     }
 
     .Profits table {
-        padding: 10px;
+        padding: 10px 20px;
         border: 1px solid var(--charcoal);
-        
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 0 auto;
+        text-align: center;
     }
+
+        .Profits table tr + tr {
+            border: 1px solid var(--charcoal);
+        }
 
         .Profits table tr:nth-child(1) {
             background-color: var(--black);
