@@ -194,7 +194,7 @@ header {
     .second h2 {
         font-size: 35px;
         font-weight: bold;
-        padding-left: 20px;
+        padding-left: 25px;
     }
 
     .second h3 {
@@ -247,7 +247,7 @@ header {
     .third h2, .third h3 {
             font-size: 35px;
             font-weight: bold;
-            padding-left: 20px;
+            padding-left: 25px;
         }
 
     .third p {
