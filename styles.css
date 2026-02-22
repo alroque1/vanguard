@@ -632,9 +632,15 @@ header .logo {
             gap: 20px;
         }
     
-    .form-group {
+    .Contact-Form form {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
         padding-bottom: 20px;
+    }
+
+    .Contact-Form textarea, .Contact-Form button {
+        grid-column: 1/-1;
     }
 
 }
