@@ -183,6 +183,7 @@ header {
     align-items: left;
     display: grid;
     gap: 20px;
+    line-height: 25px;
 }
 
     .second h2 {
@@ -201,7 +202,6 @@ header {
 
     #Our-Expertise-Intro, #What-We-Offer {
         padding: 40px 30px;
-        line-height: 25px;
     }
 
     #What-We-Offer {
