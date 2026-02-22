@@ -373,6 +373,7 @@ label span:before, label span:after {
             box-sizing: border-box;
             border: 1px solid var(--blue);
             padding: 10px;
+            background-color: var(--white);
         }
 
         .form-group {
