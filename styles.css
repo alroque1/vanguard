@@ -527,7 +527,7 @@ header .logo {
     height: 300px;
     width: 100%;
     max-width: 800px;
-    padding: 1rem;
+    /* padding: 1rem; */
     position: relative;
 }
 /* ADD ON TRANSITION ON HEIGHT                                  DONE*/
