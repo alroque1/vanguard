@@ -72,13 +72,24 @@ body {
     font-family: var(--font);
 }
 
-h1, h2, h3 {
+.Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
     display: inline-block;
     transition: transform 0.5s ease;
 }
 
-h1:hover, h2:hover, h3:hover {
+.Strategic:hover, .Investment:hover, .Business:hover, .Digital:hover, .Exclusive:hover, .Corporate:hover {
     transform: translateY(-5px);
+}
+
+h1, h2, h3, div, section, ul, li, a, form, input, textarea, button {
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+    opacity: 0;
+    animation: fadeDown 1s ease forwards;
+}
+
+p {
+    transition: none;
 }
 
             /*----------HEADER----------*/
