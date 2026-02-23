@@ -584,20 +584,8 @@ header .logo {
         margin: 0;
     }
 
-    nav ul {
-        overflow: visible;
-        position: static;
-        display: flex;
-        justify-content: flex-end;
-        margin: 0;
-        padding: 0 30px;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-        nav li a {
-            display: inline-block;
-        }
-
+    
+    
     .expertise-offers, .results, .contact {
         display: grid;
     }
