@@ -602,9 +602,10 @@ header .logo {
             width: 200px;
             background-color: var(--black);
             padding: 10px 0;
+            z-index: 10;
         }
 
-        #hamburger:checked ~ ul {
+        #hamburger:checked ~ .dropdown-nav {
             display: flex;
             flex-direction: column;
         }
