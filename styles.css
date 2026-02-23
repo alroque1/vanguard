@@ -87,9 +87,9 @@ body {
     100%    {transform: scaleY(1);}
 }
 
-h1, h2, h3, .Contact-Form label {
+h1, h2, h3, .text-background a, .Contact-Form label {
     transform-origin: top;
-    animation: stepDown .5s ease-in-out forwards;
+    animation: stepDown .3s ease-in-out forwards;
 }
 
 
