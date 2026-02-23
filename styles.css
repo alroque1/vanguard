@@ -70,6 +70,7 @@ table {
 body {
     text-align: left;
     font-family: var(--font);
+    animation: pageFadeDown 0.6s ease-out forwards;
 }
 
 .Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
@@ -539,16 +540,17 @@ header .logo {
     }
 }
 
-@keyframes pageFade {
+@keyframes pageFadeDown {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-15px);
     }
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 /* ADD ANIMATION ON stepUp for 1s ease-in-out forwards */
 .bar {
     animation: stepUp 1s ease-in-out forwards;
