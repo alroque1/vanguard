@@ -81,15 +81,15 @@ body {
     transform: translateY(-5px);
 }
 
-h1, h2, h3, div, section, ul, li, a, form, input, textarea, button {
-    transition: all 0.5s ease;
-    transform: translateY(-10px);
+body *:not(p) {
     opacity: 0;
-    animation: fadeDown 1s ease forwards;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, transform 0.5 ease;
 }
 
-p {
-    transition: none;
+:root body *:not(p) {
+    opacity: 1;
+    transform: translateY(0);
 }
 
             /*----------HEADER----------*/
