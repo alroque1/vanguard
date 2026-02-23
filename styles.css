@@ -644,7 +644,6 @@ header .logo {
         justify-content: flex-end;
         margin: 0;
         padding: 0 30px;
-        gap: 20px;
     }
 
         .navigation li {
