@@ -345,8 +345,8 @@ header {
         font-size: 18px;
     }
 
-    #Proven-Results, .Profits, .Growth {
-        padding: 10px 15px;
+    /* #Proven-Results, padding: 10px 15px;*/ .Profits, .Growth { 
+        padding: 20px;
     }
 
     .Profits {
@@ -686,6 +686,7 @@ header .logo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        padding: 40px 30px;      /*just added this-------------------------*/
     }
 
     .Proven-Results-Intro {
