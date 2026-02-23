@@ -433,6 +433,7 @@ header {
             color: var(--white);
             padding: 20px 10px;
             width: 100%;
+            margin-top: 20px;
         }
 
         .Contact-Form button:hover {
