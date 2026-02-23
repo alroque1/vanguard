@@ -117,8 +117,8 @@ header {
         list-style: none;
         margin: 0 auto;
         padding: 0 30px;
-        max-height: 0;
-        transition: max-height 0.5s ease-in-out;
+        /* max-height: 0;
+        transition: max-height 0.5s ease-in-out; */
     }
 
     .navigation li {
