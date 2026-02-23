@@ -83,13 +83,19 @@ body {
     }
 
 @keyframes stepDown {
-    0%      {transform: scaleY(0);}
-    100%    {transform: scaleY(1);}
+    0%  {
+            transform: scaleY(0);
+            opacity: 0;
+        }
+    100%{
+            transform: scaleY(1);
+            opacity: 1;
+        }
 }
 
 h1, h2, h3, .text-background a, .Contact-Form label {
     transform-origin: top;
-    animation: stepDown .3s ease-in-out forwards;
+    animation: stepDown .5s ease-in-out forwards;
 }
 
 
