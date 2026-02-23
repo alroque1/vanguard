@@ -533,21 +533,9 @@ header .logo {
     }
     /*END of GIVEN*/
 
-@media screen and (min-width: 400px){
-    
-    .navigation a, .navigation a:visited, .navigation a:active {
-        display: block;
-        padding: 10px 30px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: var(--blue);
-        transition: background-color 0.5s;
-    }
-
-    .navigation li:hover, .navigation a:hover {
-        color: var(--black);
-        background-color: var(--blue);
+@media screen and (max-width: 400px){
+    .Profits table th, .Profits table td {
+        padding: 8px 10px;
     }
 
     #hamburger, .navigation label {
@@ -575,10 +563,6 @@ header .logo {
             margin-left: 0;
             margin-bottom: 10px;
         }
-
-    .Profits table th, .Profits table td {
-        padding: 8px 10px;
-    }
 
 }
 
