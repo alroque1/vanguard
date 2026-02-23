@@ -72,6 +72,15 @@ body {
     font-family: var(--font);
 }
 
+h1, h2, h3 {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    transform: translateY(-5px);
+}
+
             /*----------HEADER----------*/
 header {
     display: block;
