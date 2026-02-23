@@ -140,7 +140,7 @@ header {
         background-color: var(--blue);
     }
 
-.hamburger input {
+#hamburger {
     display: none;
 }
 
@@ -180,25 +180,6 @@ header {
         left: 0;
     }
             /*-----hamburger nav dropdown-----*/
-
-
-    input#hamburger:checked ~ ul {
-        max-height: 500px;
-    }
-
-    input#hamburger:checked ~ label span {
-        background: transparent;
-    }
-
-    input#hamburger:checked ~ label span:before {
-        transform: rotate(-45deg);
-        top: 0;
-    }
-
-    input#hamburger:checked ~ label span:after {
-        transform: rotate(45deg);
-        top: 0;
-    }
 
 
             /*----------MAIN----------*/
@@ -596,10 +577,6 @@ header .logo {
 
         nav li a {
             display: inline-block;
-        }
-
-        label span, input#hamburger {
-            display: none;
         }
 
     .expertise-offers, .results, .contact {
