@@ -345,10 +345,6 @@ header {
         font-size: 18px;
     }
 
-    /* #Proven-Results, padding: 10px 15px;*/ .Profits, .Growth { 
-        padding: 20px;
-    }
-
     .Profits {
         display: flex;
         flex-direction: column;
@@ -631,6 +627,10 @@ header .logo {
             color: var(--black);
         }
 
+    .Profits, .Growth {
+        padding: 20px;
+    }
+    
 }
 
 @media screen and (min-width: 600px){
