@@ -553,6 +553,8 @@ header .logo {
             top: 3rem;
             right: 1rem;
             width: 200px;
+            background-color: var(--black);
+            padding: 10px 0;
         }
 
         #hamburger:checked ~ ul {
@@ -562,6 +564,16 @@ header .logo {
         .navigation li {
             margin-left: 0;
             margin-bottom: 10px;
+        }
+
+        .navigation a {
+            padding: 10px 20px;
+            color: var(--white);
+        }
+
+        .navigation a:hover {
+            background-color: var(--blue);
+            color: var(--black);
         }
 
 }
