@@ -386,7 +386,7 @@ header {
 }
 
 #Contact {
-    padding: 10px 15px;
+    padding: 20px 20px;
 }
 
     .Contact-Intro h2{
@@ -419,7 +419,8 @@ header {
         .form-group {
             display: flex;
             flex-direction: column;
-            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
         .Contact-Form button {
@@ -636,7 +637,7 @@ header .logo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     .Contact-Form textarea, .Contact-Form button {
