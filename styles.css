@@ -702,6 +702,12 @@ header .logo {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
+
+    .Profits table th, .Profits table td {
+                border: 1px solid var(--charcoal);
+                line-height: 1.5;
+                padding: 10px 20px;
+            }
     
     .Contact-Form form {
         display: grid;
