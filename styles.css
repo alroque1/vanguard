@@ -411,7 +411,7 @@ header {
 
         .Contact-Form input, .Contact-Form textarea {
             box-sizing: border-box;
-            border: 1px solid var(--blue);
+            border-color: var(--blue);
             padding: 10px;
             background-color: var(--white);
         }
