@@ -70,7 +70,7 @@ table {
 body {
     text-align: left;
     font-family: var(--font);
-    animation: pageFadeDown 0.6s ease-out forwards;
+    animation: fadeDown 0.9s ease-out forwards;
 }
 
 .Strategic, .Investment, .Business, .Digital, .Exclusive, .Corporate {
@@ -543,7 +543,7 @@ header .logo {
 @keyframes pageFadeDown {
     from {
         opacity: 0;
-        transform: translateY(-15px);
+        transform: translateY(-25px);
     }
     to {
         opacity: 1;
