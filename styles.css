@@ -225,7 +225,6 @@ header {
             /*----------OUR EXPERTISE AND WHAT WE OFFER----------*/
 .expertise-offers {
     background-color: var(--white);
-    align-items: left;
     display: grid;
     gap: 20px;
     line-height: 1.5;
@@ -278,7 +277,6 @@ header {
             /*----------PROVEN RESULTS, PROFITS, GROWTH----------*/
 .results {
     background-color: var(--blue);
-    align-items: left;
     gap: 20px;
     line-height: 1.5;
     color: var(--white);
@@ -360,7 +358,6 @@ header {
             /*----------CONTACT----------*/
 .contact {
     background-color: var(--black);
-    align-items: left;
     display: grid;
     line-height: 1.5;
     color: var(--white);
