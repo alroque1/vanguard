@@ -157,6 +157,8 @@ header {
     font-size: 20px;
     padding-bottom: 20px;
     position: relative;
+    padding: 20px;
+    text-align: center;
 }
 
     .navigation ul {
@@ -185,7 +187,6 @@ header {
     .navigation li:hover, .navigation a:hover {
         color: var(--black);
         background-color: var(--blue);
-        width: 100%;
     }
 
 #hamburger {
