@@ -345,14 +345,14 @@ header {
     padding: 40px 30px;
 }
 
-    .Proven-Results h2 {
+    .results h2 {
             font-size: 35px;
             font-weight: bold;
             padding-left: 25px;
-            padding-bottom: 20px;
+            padding-bottom: 20px
         }
 
-    .Proven-Results h3 {
+    .results h3 {
             font-size: 35px;
             font-weight: bold;
             padding-left: 25px;
@@ -362,7 +362,7 @@ header {
         font-size: 17px;
     }
 
-    .Proven-Results table {
+    .results table {
         font-size: 18px;
     }
 
