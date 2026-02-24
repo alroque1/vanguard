@@ -342,6 +342,10 @@ header {
     color: var(--white);
 }
 
+#Proven-Results {
+    padding: 40px 30px;
+}
+
     .results h2 {
             font-size: 35px;
             font-weight: bold;
@@ -355,7 +359,7 @@ header {
         }
 
     .Proven-Results-Intro p {
-        font: 17px;
+        font-size: 17px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -430,7 +434,7 @@ header {
     }
 
     .Contact-Intro p {
-        font: 17px;
+        font-size: 17px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -648,10 +652,6 @@ header .logo {              /*GIVEN          DONE*/
         display: grid;
     }
 
-    .results {
-        padding-bottom: 20px
-    }
-
     #Our-Expertise-Intro, #What-We-Offer h2 {
         grid-column: 1/-1;
     }
@@ -660,7 +660,6 @@ header .logo {              /*GIVEN          DONE*/
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        padding: 40px 30px;      /*just added this-------------------------*/
     }
 
     .Proven-Results-Intro {
