@@ -169,6 +169,7 @@ header {
 
     .navigation li {
         list-style: none;
+        padding: 5px 20px;
     }
 
     .navigation a, .navigation a:visited, .navigation a:active {
@@ -194,7 +195,7 @@ header {
         display: block;
         order: 2;
         cursor: pointer;
-        margin-left: auto;
+        margin-right: 0;
         z-index: 101;
     }
 
