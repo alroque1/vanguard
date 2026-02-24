@@ -195,6 +195,7 @@ header {
         order: 2;
         cursor: pointer;
         margin-left: auto;
+        z-index: 101;
     }
 
     .navigation a {
@@ -209,6 +210,7 @@ header {
         max-width: 400px;
         top: 100%;
         left: 0;
+        right: 0;
         background-color: var(--black);
         padding: 20px 0;
         z-index: 100;
@@ -227,6 +229,9 @@ header {
 
     #hamburger:checked ~ .dropdown-nav {
         display: flex;
+        visibility: visible;
+        opacity: 1;
+        background-color: var(--white);
     }
 
     label span {
