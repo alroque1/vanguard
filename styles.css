@@ -134,6 +134,7 @@ header {
     margin: 0;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: var(--black);
     color: var(--blue);
     border-bottom: 10px solid;
@@ -144,7 +145,10 @@ header {
     .logo-and-title {
         display: flex;
         padding: 0 10px;
+        align-items: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .logo-and-title h1 {
@@ -203,10 +207,25 @@ header {
         display: none;
         flex-direction: column;
         position: absolute;
-        width: 200px;
+        width: 100%;
         top: 100%;
-        right: 0;
+        left: 0;
         background-color: var(--black);
+        padding: 20px 0;
+        z-index: 100;
+    }
+
+    .dropdown-nav li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .dropdown-nav a {
+        display: block;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--blue);
     }
 
     #hamburger:checked ~ .dropdown-nav {
