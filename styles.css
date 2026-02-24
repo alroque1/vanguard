@@ -135,6 +135,7 @@ header {
     background-color: var(--black);
     color: var(--blue);
     width: 100%;
+    gap: 20px;
 }
 
     .logo-and-title {
@@ -168,6 +169,7 @@ header {
 
     .navigation li {
         list-style: none;
+        padding: 0 40px;
     }
 
     .navigation a, .navigation a:visited, .navigation a:active {
@@ -187,15 +189,14 @@ header {
 
 #hamburger {
     display: none;
-
 }
 
     .navigation label {
         display: block;
-        order: 2;
         cursor: pointer;
-        margin-left: auto;
-        z-index: 101;
+        margin-left: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .navigation a {
