@@ -132,6 +132,7 @@ header {
     align-items: center;
     padding: 20px 0;
     margin: 0;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--black);
     color: var(--blue);
@@ -158,6 +159,7 @@ header {
     position: relative;
     padding: 20px;
     text-align: center;
+    justify-content: flex-end;
 }
 
     .navigation ul {
@@ -192,6 +194,8 @@ header {
 }
 
     .navigation label {
+        display: block;
+        order: 1;
         cursor: pointer;
         color: white;
     }
@@ -199,8 +203,10 @@ header {
     .dropdown-nav {
         display: none;
         flex-direction: column;
-        position: static;
+        position: absolute;
         width: 200px;
+        top: 100%;
+        right: 0;
         background-color: var(--black);
     }
 
