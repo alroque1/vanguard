@@ -129,7 +129,6 @@ header {
 
 .title {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     margin: 0;
@@ -143,8 +142,7 @@ header {
 
     .logo-and-title {
         display: flex;
-        padding: 0 30px;
-        align-items: center;
+        padding: 0 10px;
         flex-wrap: wrap;
     }
 
@@ -157,7 +155,6 @@ header {
             /*----------NAV----------*/
 .navigation {
     font-size: 20px;
-    padding-bottom: 20px;
     position: relative;
     padding: 20px;
     text-align: center;
@@ -167,7 +164,6 @@ header {
         display: none;
         list-style: none;
         margin: 0;
-        padding: 0 30px;
         justify-content: flex-end;
     }
 
@@ -204,11 +200,8 @@ header {
         display: none;
         flex-direction: column;
         position: static;
-        top: 3.5rem;
-        right: 1rem;
         width: 200px;
         background-color: var(--black);
-        padding: 10px 0;
     }
 
     #hamburger:checked ~ .dropdown-nav {
