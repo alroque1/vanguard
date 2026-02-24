@@ -187,7 +187,11 @@ header {
     }
 
 #hamburger {
-    display: none;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
 }
 
     .navigation label {
@@ -203,7 +207,7 @@ header {
     }
 
     .dropdown-nav {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: static;
         width: 100%;
