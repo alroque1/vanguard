@@ -233,7 +233,7 @@ header {
 
     #hamburger:checked ~ .dropdown-nav {
         display: flex;
-        visibility: visible;
+        visibility: hidden;
         opacity: 1;
         background-color: var(--black);
     }
