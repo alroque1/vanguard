@@ -128,17 +128,13 @@ header {
 }
 
 .title {
-    display: flex;
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 20px 0;
     margin: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: var(--black);
     color: var(--blue);
-    border-image: linear-gradient(to bottom, var(--blue), var(--white));
     width: 100%;
 }
 
@@ -146,9 +142,7 @@ header {
         display: flex;
         padding-left: 20px;
         align-items: center;
-        justify-content: center;
-        flex: 1;
-        width: 100%;
+        justify-content: flex-start;
     }
 
     .logo-and-title h1 {
@@ -160,11 +154,10 @@ header {
             /*----------NAV----------*/
 .navigation {
     font-size: 20px;
+    justify-self: end;
     position: relative;
     padding-right: 20px;
     text-align: center;
-    justify-content: flex-end;
-    width: 100%;
 }
 
     .navigation ul {
@@ -202,6 +195,10 @@ header {
         order: 2;
         cursor: pointer;
         margin-left: auto;
+    }
+
+    .navigation a {
+        text-align: center;
     }
 
     .dropdown-nav {
@@ -723,6 +720,10 @@ header .logo {              /*GIVEN          DONE*/
         min-width: 400px;
         padding: 0;
         margin: 0;
+    }
+
+    #hamburger, .navigation label {
+        display: none;
     }
 
     .dropdown-nav {
