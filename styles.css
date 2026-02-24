@@ -188,8 +188,6 @@ header {
 
 #hamburger {
     display: block;
-    position: absolute;
-    top: 20px;
 }
 
     .navigation label {
