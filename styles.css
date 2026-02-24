@@ -195,7 +195,7 @@ header {
         display: block;
         order: 2;
         cursor: pointer;
-        margin-right: 0;
+        margin-right: 10px;
         z-index: 101;
         position: relative;
         top: 0;
