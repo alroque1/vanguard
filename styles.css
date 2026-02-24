@@ -93,9 +93,18 @@ body {
         }
 }
 
+@keyframes gradientReveal {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+
 h2, h3, .text-background a, .Contact-Form label {
     transform-origin: top;
-    animation: stepDown .5s ease-in-out forwards;
+    animation: stepDown .5s ease-in-out forwards, gradientReveal .5s ease-in-out forwards;
 }
 
 
