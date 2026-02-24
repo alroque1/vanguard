@@ -128,8 +128,7 @@ header {
 }
 
 .title {
-    display: grid;
-    grid-template-columns: 1fr auto;
+    display: flex;
     align-items: center;
     padding: 20px 0;
     margin: 0;
