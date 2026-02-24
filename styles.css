@@ -135,7 +135,6 @@ header {
     background-color: var(--black);
     color: var(--blue);
     width: 100%;
-    gap: 20px;
 }
 
     .logo-and-title {
