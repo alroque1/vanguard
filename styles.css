@@ -23,8 +23,8 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
+time, mark, audio, video {                          /*GIVEN*/
+    margin: 0;  
     padding: 0;
     border: 0;
     font-size: 100%;
@@ -33,7 +33,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section {        /*GIVEN*/
     display: block;
 }
 body {
@@ -56,7 +56,7 @@ table {
 }
 
 /* ----------ROOT VARIABLES---------- */
-:root {
+:root {                                             /*GIVEN*/
     --blue: #007BFF;
     --red: #FF4500;
     --white: #EAEAEA;
@@ -109,7 +109,7 @@ h2, h3, .text-background a, .Contact-Form label {
 
 
 /* ADD ANIMATION ON stepUp for 1s ease-in-out forwards          DONE*/
-.bar {
+.bar {                      /*GIVEN         DONE*/
     animation: stepUp 1s ease-in-out forwards;
 }
 
@@ -477,19 +477,19 @@ header {
 
                     /* vvvvvvvvvvSTART of GIVEN SECTIONS for GLOBAL STYLESvvvvvvvvvv */
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
-html {
+html {                      /*GIVEN         DONE*/
     min-width: 400px;
 }
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90%       DONE*/
-.container {
+.container {                /*GIVEN            DONE*/
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash)               DONE*/
-#Innovation-Investment{
+#Innovation-Investment{     /*GIVEN*/
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
     height: 80vh;
     display: grid;
@@ -509,7 +509,7 @@ html {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1                          Double check*/
-header .logo {
+header .logo {              /*GIVEN          DONE*/
     content: "";
     left:-.5rem;
     width: 3.75rem;
@@ -523,7 +523,7 @@ header .logo {
 
 
 /* THIS ONE IS DONE FOR YOU                                     DONE*/
-#bar-chart {
+#bar-chart {                /*GIVEN*/
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: flex-end;
@@ -536,7 +536,7 @@ header .logo {
     position: relative;
 }
 /* ADD ON TRANSITION ON HEIGHT                                  DONE*/
-.bar {
+.bar {                      /*GIVEN          DONE*/
     width: 50px;
     background: var(--charcoal);
     border-radius: 10px;
@@ -545,7 +545,7 @@ header .logo {
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU                                     DONE*/
-.bar::after {
+.bar::after {               /*GIVEN*/
     content: attr(data-year);
     position: absolute;
     bottom: -25px;
@@ -556,7 +556,7 @@ header .logo {
     color: var(--white);
 }
 
-@keyframes stepUp {
+@keyframes stepUp {         /*GIVEN*/
     0% {
         height: 0;
     }
@@ -567,80 +567,27 @@ header .logo {
 
 
 /* ADD ANIMATION ON stepUp for 1s ease-in-out forwards */
-.bar {
+.bar {                      /*GIVEN          DONE*/
     animation: stepUp 1s ease-in-out forwards;
 }
-                    /* ^^^^^^^^^^^^END of GIVEN SECTIONS for GLOBAL STYLES^^^^^^^^^^ */
 
 
 
 /* ----------MEDIA QUERIES (MEDIUM)---------- */ 
-    /*GIVEN*/
-    #results {
+    
+    #results {              /*GIVEN*/
         grid-template-columns: 1fr 1fr;
     }
-    .results-container {
+    .results-container {    /*GIVEN*/
         flex-direction: row;
         justify-content: space-between;
     }
-    .results-table {
+    .results-table {        /*GIVEN*/
         width: 50%;
     }
-    .bar-chart {
+    .bar-chart {            /*GIVEN*/
         width: 50%;
     }
-    /*END of GIVEN*/
-
-@media screen and (max-width: 400px){
-    .Profits table th, .Profits table td {
-        padding: 8px 10px;
-    }
-
-    #hamburger, .navigation label {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        cursor: pointer;
-    }
-
-        .navigation ul {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 3rem;
-            right: 1rem;
-            width: 200px;
-            background-color: var(--black);
-            padding: 10px 0;
-            z-index: 10;
-        }
-
-        #hamburger:checked ~ .dropdown-nav {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .navigation li {
-            margin-left: 0;
-            margin-bottom: 10px;
-        }
-
-        .navigation a {
-            padding: 10px 20px;
-            color: var(--white);
-        }
-
-        .navigation a:hover {
-            background-color: var(--blue);
-            color: var(--black);
-        }
-
-    .Profits, .Growth {
-        padding: 20px;
-    }
-    
-}
 
 @media screen and (min-width: 600px){
     .page {
@@ -677,6 +624,14 @@ header .logo {
 
         #hamburger, .navigation label {
             display: none;
+        }
+
+        .dropdown-nav {
+            display: flex !important;
+            position: static;
+            flex-direction: row;
+            background: none;
+            width: auto;
         }
 
     .expertise-offers, .results, .contact {
