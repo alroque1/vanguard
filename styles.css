@@ -128,7 +128,8 @@ header {
 }
 
 .title {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 20px 0;
     margin: 0;
@@ -186,8 +187,9 @@ header {
     }
 
 #hamburger {
-    display: none;
-
+    display: block;
+    position: absolute;
+    top: 20px;
 }
 
     .navigation label {
