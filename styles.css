@@ -201,7 +201,7 @@ header {
         display: block;
         order: 2;
         cursor: pointer;
-        color: white;
+        margin-left: auto;
     }
 
     .dropdown-nav {
@@ -723,6 +723,14 @@ header .logo {              /*GIVEN          DONE*/
         min-width: 400px;
         padding: 0;
         margin: 0;
+    }
+
+    .dropdown-nav {
+        position: static;
+        flex-direction: row;
+        background: none;
+        width: auto;
+        padding: 0;
     }
 
     .expertise-offers, .results, .contact {
