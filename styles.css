@@ -144,6 +144,8 @@ header {
     .logo-and-title {
         display: flex;
         padding: 0 30px;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .logo-and-title h1 {
@@ -194,7 +196,7 @@ header {
 }
 
     .navigation label {
-        display: block;
+        display: none;
         cursor: pointer;
         color: white;
     }
@@ -202,7 +204,7 @@ header {
     .dropdown-nav {
         display: none;
         flex-direction: column;
-        position: absolute;
+        position: static;
         top: 3.5rem;
         right: 1rem;
         width: 200px;
@@ -629,6 +631,10 @@ header .logo {              /*GIVEN          DONE*/
             font-weight: bold;
             text-transform: uppercase;
             transition: background-color 0.5s;
+        }
+
+        .navigation label {
+            display: none;
         }
 
         .navigation a:hover {
