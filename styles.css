@@ -196,7 +196,6 @@ header {
 }
 
     .navigation label {
-        display: none;
         cursor: pointer;
         color: white;
     }
