@@ -169,7 +169,6 @@ header {
 
     .navigation li {
         list-style: none;
-        padding: 5px 20px;
     }
 
     .navigation a, .navigation a:visited, .navigation a:active {
@@ -189,10 +188,6 @@ header {
 
 #hamburger {
     display: none;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 101;
 }
 
     .navigation label {
@@ -208,7 +203,7 @@ header {
     }
 
     .dropdown-nav {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: static;
         width: 100%;
@@ -234,7 +229,7 @@ header {
 
     #hamburger:checked ~ .dropdown-nav {
         display: flex;
-        visibility: hidden;
+        visibility: visible;
         opacity: 1;
         background-color: var(--black);
     }
