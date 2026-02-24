@@ -171,7 +171,6 @@ header {
 
     .navigation li {
         list-style: none;
-        margin-left: 20px;
     }
 
     .navigation a, .navigation a:visited, .navigation a:active {
